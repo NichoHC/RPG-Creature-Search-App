@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    background: #1e1e2f;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffcc00;
+}
+
+/* Input y botón */
+#search-input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-right: 0.5rem;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: #1e1e2f;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#search-button:hover {
+    background-color: #e6b800;
+}
+
+/* Contenedor de información de la criatura */
+.creature-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+    background: #2c2c44;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Cada línea de info */
+.creature-info p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Tipos como badges */
+#types span {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    margin-right: 0.4rem;
+    margin-top: 0.2rem;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #fff;
+    background-color: #444;
+}
+
+/* Ejemplo de colores por tipo (puedes ajustar según tus tipos) */
+#types span:nth-child(1) { background-color: #f08030; } /* FIRE */
+#types span:nth-child(2) { background-color: #6890f0; } /* WATER */
+#types span:nth-child(3) { background-color: #b8a038; } /* ROCK */
+
+/* Stats container */
+.creature-info p strong {
+    width: 130px;
+    display: inline-block;
+}
+
+/* Special */
+#special p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+    background-color: #444;
+    border-radius: 8px;
+}
