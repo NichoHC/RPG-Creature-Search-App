@@ -1,6 +1,6 @@
 # RPG Creature Search App
 
-![RPG Creature](https://via.placeholder.com/400x200.png?text=RPG+Creature+Search)
+
 
 This project is a **RPG Creature Search web application**, developed as part of the **freeCodeCamp certification**. It allows you to search for creatures by **name or ID** and displays detailed information including stats, types, and special abilities.
 
